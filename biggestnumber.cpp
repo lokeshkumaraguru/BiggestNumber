@@ -23,16 +23,8 @@ int main()
     biggest = wholenumber1;
   }
 
-  if(wholenumber1 == wholenumber2)
-  {
-    std::cout<<"Both numbers have the same value: ";
-    std::cout<<wholenumber1;
-  }
-  else
-  {
-    std::cout<<"Of those two numbers, the biggest is: ";
-    std::cout<<biggest;
-  }
+  std::cout<<"Of those two numbers, the biggest is: ";
+  std::cout<<biggest;
 
   std::cout<<std::endl<<"Thank you for playing.\n";
   
